@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // One letter, A to Z, standing for the word that describes the day.
+// Chose "M": a mellow, midweek kind of day — manageable, mostly fine.
 // Writes the line to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 // No trailing newline: the gate counts every character.
 const line = "M";
